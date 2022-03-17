@@ -10,8 +10,8 @@ const fetchLights = async () => {
         const temp = `ALP - ${i}`;
         para.innerHTML = temp;
 
-        img.classList.add('img-thumbnail');
-        img.src = `./images/one${i}.jpeg`; 
+        img.classList.add('img-thumbnail');        
+        img.src = `./aluminumLampPost/images/one${i}.jpg`; 
         document.getElementById('lights1').appendChild(img);
         document.getElementById('lights1').appendChild(para);
     }
