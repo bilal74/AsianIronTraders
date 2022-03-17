@@ -1,6 +1,7 @@
 // const lights_container = document.getElementById('lights1');
 const lights_number = 67;
 var x = 1;
+// var y = 1;
 
 const fetchLights = async () => {
     for(let i=1; i<=lights_number; i++){
@@ -16,28 +17,33 @@ const fetchLights = async () => {
         if(x == 1){
             document.getElementById('lights1').appendChild(img);
             document.getElementById('lights1').appendChild(para);
-            x++;
+            // x++;
+            // y += 5;
         }
-        else if(x == 2){
-            document.getElementById('lights2').appendChild(img);
-            document.getElementById('lights2').appendChild(para);
-            x++;
-        }
-        else if(x == 3){
-            document.getElementById('lights3').appendChild(img);
-            document.getElementById('lights3').appendChild(para);
-            x++
-        }
-        else if(x == 4){
-            document.getElementById('lights4').appendChild(img);
-            document.getElementById('lights4').appendChild(para);
-            x++;
-        }
-        else if(x == 5){
-            document.getElementById('lights5').appendChild(img);
-            document.getElementById('lights5').appendChild(para);
-            x = 1;
-        }
+        // else if(x == 2){
+        //     document.getElementById('lights2').appendChild(img);
+        //     document.getElementById('lights2').appendChild(para);
+        //     x++;
+        //     y += 5;
+        // }
+        // else if(x == 3){
+        //     document.getElementById('lights3').appendChild(img);
+        //     document.getElementById('lights3').appendChild(para);
+        //     x++
+        //     y += 5;
+        // }
+        // else if(x == 4){
+        //     document.getElementById('lights4').appendChild(img);
+        //     document.getElementById('lights4').appendChild(para);
+        //     x++;
+        //     y += 5;
+        // }
+        // else if(x == 5){
+        //     document.getElementById('lights5').appendChild(img);
+        //     document.getElementById('lights5').appendChild(para);
+        //     x = 1;
+        //     y += 5;
+        // }
     }
 }
 fetchLights();
