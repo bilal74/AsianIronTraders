@@ -1,4 +1,4 @@
-const lights_number = 67;
+const lights_number = 44;
 var x = 1;
 
 const fetchLights = async () => {
