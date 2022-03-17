@@ -1,0 +1,146 @@
+/* MIXIN : MEDIA QUERIES
+ *    EX : @include mq( 'lap-and-up' ) { CODE }
+ * ------------------------------------------------------------------------- */
+h6 {
+  color: brown;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container h1 {
+  text-align: center;
+  color: goldenrod;
+  margin: 1rem;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.parent h2 {
+  color: red;
+}
+
+@media screen and (max-width: 767px) {
+  .parent {
+    display: block;
+  }
+}
+
+.parent .first {
+  width: 20%;
+  padding: 1%;
+}
+
+.parent .first img {
+  height: 22rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .parent .first img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .parent .first {
+    width: 100%;
+  }
+}
+
+.parent .second {
+  width: 20%;
+  padding: 1%;
+}
+
+.parent .second img {
+  height: 22rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .parent .second img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .parent .second {
+    width: 100%;
+  }
+}
+
+.parent .third {
+  width: 20%;
+  padding: 1%;
+}
+
+.parent .third img {
+  height: 22rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .parent .third img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .parent .third {
+    width: 100%;
+  }
+}
+
+.parent .four {
+  width: 20%;
+  padding: 1%;
+}
+
+.parent .four img {
+  height: 22rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .parent .four img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .parent .four {
+    width: 100%;
+  }
+}
+
+.parent .five {
+  width: 20%;
+  padding: 1%;
+}
+
+.parent .five img {
+  height: 22rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .parent .five img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .parent .five {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

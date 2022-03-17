@@ -1,0 +1,114 @@
+@import './mediaQuery';
+h6{
+    color: brown;
+    text-align: center;
+    // margin: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.container{
+    h1{
+        text-align: center;
+        color: goldenrod;
+        margin: 1rem;
+    }
+}
+
+.parent{
+    h2{
+        color: red;
+    }
+    display: flex;    
+    @include mq('phone'){
+        display: block;
+    }
+    .first{
+        // background-color: blue;
+        width: 20%;
+        padding: 1%;
+        
+        img{
+            height: 22rem;
+            width: 100%; 
+            @include mq('phone'){
+                width: 100%;
+                height: auto;
+            }
+        }
+        @include mq('phone'){
+            width: 100%;
+            // background-color: aqua;
+        }
+    }
+    .second{
+        // background-color: green;
+        width: 20%;
+        padding: 1%;
+        img{
+            height: 22rem;
+            width: 100%;
+            @include mq('phone'){
+                width: 100%;
+                height: auto;
+            }
+        }
+        @include mq('phone'){
+            width: 100%;
+            // background-color: aqua;
+        }
+    }
+    .third{
+        // background-color: goldenrod;
+        width: 20%;
+        padding: 1%;
+        img{
+            height: 22rem;
+            width: 100%;
+            @include mq('phone'){
+                width: 100%;
+                height: auto;
+            }
+        }
+        @include mq('phone'){
+            width: 100%;
+            // background-color: rebeccapurple;
+        }
+    }
+    .four{
+        // background-color: gray;
+        width: 20%;
+        padding: 1%;
+        img{
+            height: 22rem;
+            width: 100%;
+            @include mq('phone'){
+                width: 100%;
+                height: auto;
+            }
+        }
+        @include mq('phone'){
+            width: 100%;
+            // background-color: aqua;
+        }
+    }
+    .five{
+        // background-color: brown;
+        width: 20%;
+        padding: 1%;
+        img{
+            height: 22rem;
+            width: 100%;
+            @include mq('phone'){
+                width: 100%;
+                height: auto;
+            }
+        }
+        @include mq('phone'){
+            width: 100%;            
+            // background-color: burlywood;
+        }
+    }
+}
+
+
